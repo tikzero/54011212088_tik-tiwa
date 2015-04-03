@@ -16,9 +16,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roQ-7p-y5w">
+                                <rect key="frame" x="269" y="512" width="90" height="40"/>
+                                <state key="normal" title="Animate2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="animateButtonTapped2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Sie-3e-uPp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jh-RR-538">
+                                <rect key="frame" x="16" y="582" width="90" height="40"/>
+                                <state key="normal" title="Animate3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="animateButtonTapped3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gJf-s7-89s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IE5-a8-tlX">
+                                <rect key="frame" x="269" y="582" width="90" height="40"/>
+                                <state key="normal" title="Animate4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="animateButtonTapped4:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VFv-Q7-h74"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXf-MP-ITs">
-                                <rect key="frame" x="142" y="563" width="90" height="40"/>
-                                <state key="normal" title="Animate">
+                                <rect key="frame" x="16" y="512" width="90" height="40"/>
+                                <state key="normal" title="Animate1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
