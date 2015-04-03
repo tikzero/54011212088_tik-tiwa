@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     @IBAction func animateButtonPressed(sender: AnyObject) {
        
-        let numberOfFish = Int(self.numberOfFishSlider.value * 100)
+        let numberOfFish = Int(self.numberOfFishSlider.value * 10)
         
         for loopNumber in 0...numberOfFish {
             
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
             let delay = NSTimeInterval(900 + arc4random_uniform(100)) / 1000
             
             let size: CGFloat = CGFloat(arc4random_uniform(40)) + 20
-            let yPosition: CGFloat = CGFloat(arc4random_uniform(200)) + 20
+            let yPosition: CGFloat = CGFloat(arc4random_uniform(300)) + 20
             
             let fish = UIImageView()
             fish.image = UIImage(named: "blue-fish")
